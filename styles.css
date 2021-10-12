@@ -1,0 +1,22 @@
+html, body {
+	margin:  0;
+	padding:  0;
+}
+
+.container {
+	padding: 20px 5px; 
+	background: #86f;
+}
+
+.caja {
+	background: inherit;
+	height: 100px;
+	width: 100px;
+	transition: background .2s .3s;
+	margin: 30px;
+	border: 1px solid #000;
+}
+
+.caja:hover {
+	background: green;
+}
